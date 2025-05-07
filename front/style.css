@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffdf7;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1920&q=80') no-repeat center center;
+  background-size: cover;
+  height: 75vh;
+  padding: 0 20px;
+}
+
+.hero .btn {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.hero .btn:hover {
+  background-color: #004080;
+  transform: scale(1.05);
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 0.75rem;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  text-align: center;
+}
+
+.search-input {
+  border-radius: 30px;
+  padding: 15px 25px;
+  font-size: 18px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+}
+
+footer {
+  margin-top: 3rem;
+}
+
+footer h5 {
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #007bff;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+footer ul.list-inline li {
+  display: inline-block;
+  margin-right: 15px;
+}
