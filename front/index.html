@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,19 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    footer h6 {
+      margin-bottom: 1rem;
+    }
+
+    footer a:hover {
+      color: #f97316 !important;
+      /* Tailwind-style orange-500 */
+    }
+  </style>
+
 </head>
+
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
@@ -23,7 +36,8 @@
           <li class="nav-item"><a class="nav-link" href="#chefs">Star Chefs</a></li>
           <li class="nav-item"><a class="nav-link" href="#order">Order</a></li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle btn btn-outline-primary px-3 py-1" href="#" role="button" data-bs-toggle="dropdown">Sign In</a>
+            <a class="nav-link dropdown-toggle btn btn-outline-primary px-3 py-1" href="#" role="button"
+              data-bs-toggle="dropdown">Sign In</a>
             <ul class="dropdown-menu dropdown-menu-end p-4" style="min-width: 300px;">
               <form action="login.html" method="get">
                 <div class="mb-3">
@@ -53,8 +67,11 @@
   <section class="hero d-flex align-items-center justify-content-center text-white text-center">
     <div class="container">
       <h1 class="display-4 fw-bold animate__animated animate__fadeInDown">Home-Cooked Goodness, Delivered</h1>
-      <p class="lead animate__animated animate__fadeInUp">Discover meals crafted with love by home chefs across Germany.</p>
-      <a href="#trending" class="btn btn-primary px-4 py-2 rounded-pill shadow animate__animated animate__pulse animate__infinite">Explore Now</a>
+      <p class="lead animate__animated animate__fadeInUp">Discover meals crafted with love by home chefs across Germany.
+      </p>
+      <a href="#trending"
+        class="btn btn-primary px-4 py-2 rounded-pill shadow animate__animated animate__pulse animate__infinite">Explore
+        Now</a>
     </div>
   </section>
 
@@ -69,7 +86,8 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-md-8">
-          <input type="text" class="form-control search-input" placeholder="e.g. Paneer Butter Masala, Gujarati, Rajeshbhai" />
+          <input type="text" class="form-control search-input"
+            placeholder="e.g. Paneer Butter Masala, Gujarati, Rajeshbhai" />
         </div>
       </div>
     </div>
@@ -82,10 +100,12 @@
       <div class="row">
         <div class="col-md-4 mb-4">
           <div class="card shadow">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Masala_dosa_and_sambhar.jpg" class="card-img-top rounded-top" alt="Masala Dosa">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Masala_dosa_and_sambhar.jpg"
+              class="card-img-top rounded-top" alt="Masala Dosa">
             <div class="card-body">
               <h5 class="card-title">Masala Dosa</h5>
-              <p class="card-text">A crispy delight from South India, loved by all. Enjoy with a side of tangy chutney and savory sambar.</p>
+              <p class="card-text">A crispy delight from South India, loved by all. Enjoy with a side of tangy chutney
+                and savory sambar.</p>
               <p class="card-text"><small class="text-muted">Prepared by Chef Anjali Rao</small></p>
             </div>
           </div>
@@ -102,10 +122,13 @@
       <div class="row">
         <div class="col-md-4 mb-4">
           <div class="card shadow">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Gujarati_Thali.jpg/800px-Gujarati_Thali.jpg" class="card-img-top rounded-top" alt="Gujarati Thali">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Gujarati_Thali.jpg/800px-Gujarati_Thali.jpg"
+              class="card-img-top rounded-top" alt="Gujarati Thali">
             <div class="card-body">
               <h5 class="card-title">Gujarati Thali</h5>
-              <p class="card-text">A variety of traditional vegetarian dishes in one plate. Relish the taste of authentic Gujarati flavors.</p>
+              <p class="card-text">A variety of traditional vegetarian dishes in one plate. Relish the taste of
+                authentic Gujarati flavors.</p>
               <p class="card-text"><small class="text-muted">Prepared by Chef Harsh Patel</small></p>
             </div>
           </div>
@@ -122,10 +145,12 @@
       <div class="row">
         <div class="col-md-4 mb-4">
           <div class="card shadow text-center">
-            <img src="https://images.unsplash.com/photo-1590080876615-9fbe7ee26df3" class="card-img-top rounded-top" alt="Rajeshbhai Patel">
+            <img src="https://images.unsplash.com/photo-1590080876615-9fbe7ee26df3" class="card-img-top rounded-top"
+              alt="Rajeshbhai Patel">
             <div class="card-body">
               <h5 class="card-title">Rajeshbhai Patel</h5>
-              <p class="card-text">Master of Gujarati cuisine with 10+ years of experience. Known for his dedication to authentic flavors and innovative twists.</p>
+              <p class="card-text">Master of Gujarati cuisine with 10+ years of experience. Known for his dedication to
+                authentic flavors and innovative twists.</p>
               <p class="card-text"><small class="text-muted">Specialties: Dhokla, Fafda, Undhiyu</small></p>
             </div>
           </div>
@@ -142,10 +167,12 @@
       <div class="row">
         <div class="col-md-4 mb-4">
           <div class="card shadow h-100 animate__animated animate__fadeInUp">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Hyderabadi_Chicken_Biryani.jpg" class="card-img-top rounded-top" alt="Chicken Biryani">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Hyderabadi_Chicken_Biryani.jpg"
+              class="card-img-top rounded-top" alt="Chicken Biryani">
             <div class="card-body">
               <h5 class="card-title">Chicken Biryani</h5>
-              <p class="card-text">Experience the rich flavors and spices that come together in this traditional Hyderabadi dish.</p>
+              <p class="card-text">Experience the rich flavors and spices that come together in this traditional
+                Hyderabadi dish.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <span class="h5 mb-0">$12.99</span>
                 <div>
@@ -158,7 +185,9 @@
         </div>
         <div class="col-md-4 mb-4">
           <div class="card shadow h-100 animate__animated animate__fadeInUp" style="animation-delay: 0.1s;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Paneer_butter_masala.jpg/800px-Paneer_butter_masala.jpg" class="card-img-top rounded-top" alt="Paneer Butter Masala">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Paneer_butter_masala.jpg/800px-Paneer_butter_masala.jpg"
+              class="card-img-top rounded-top" alt="Paneer Butter Masala">
             <div class="card-body">
               <h5 class="card-title">Paneer Butter Masala</h5>
               <p class="card-text">Delight in the silky, creamy texture of paneer in this popular North Indian dish.</p>
@@ -174,10 +203,12 @@
         </div>
         <div class="col-md-4 mb-4">
           <div class="card shadow h-100 animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Samosa_dish.jpg/800px-Samosa_dish.jpg" class="card-img-top rounded-top" alt="Veg Samosa">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Samosa_dish.jpg/800px-Samosa_dish.jpg"
+              class="card-img-top rounded-top" alt="Veg Samosa">
             <div class="card-body">
               <h5 class="card-title">Veg Samosa (2 pcs)</h5>
-              <p class="card-text">Crispy and golden, enjoy a burst of flavor with every bite of these stuffed pastries.</p>
+              <p class="card-text">Crispy and golden, enjoy a burst of flavor with every bite of these stuffed pastries.
+              </p>
               <div class="d-flex justify-content-between align-items-center">
                 <span class="h5 mb-0">$5.99</span>
                 <div>
@@ -194,43 +225,64 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-dark text-white py-4">
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Footer Section -->
+  <footer class="bg-light text-dark pt-5 pb-3 mt-5 border-top">
     <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h5>About Taste of Home</h5>
-          <p>Your favorite home-cooked meals, delivered to your doorstep with love and care.</p>
+      <div class="row text-start">
+
+        <!-- Logo & Description -->
+        <div class="col-md-4 mb-4">
+          <h5 class="d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-chef-hat h-8 w-8 text-bistro-600" data-lov-id="src/components/Footer.tsx:13:14"
+              data-lov-name="ChefHat" data-component-path="src/components/Footer.tsx" data-component-line="13"
+              data-component-file="Footer.tsx" data-component-name="ChefHat"
+              data-component-content="%7B%22className%22%3A%22h-8%20w-8%20text-bistro-600%22%7D">
+              <path
+                d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z">
+              </path>
+              <path d="M6 17h12"></path>
+            </svg>
+            <span class="fw-bold">Taste of Home</span>
+          </h5>
+          <p class="text-muted">Connecting food lovers with talented home chefs for authentic, homemade meals delivered
+            to your doorstep.</p>
         </div>
-        <div class="col-md-4">
-          <h5>Contact Us</h5>
+
+        <!-- Platform Links -->
+        <div class="col-md-4 mb-4">
+          <h6 class="fw-bold text-uppercase">Platform</h6>
           <ul class="list-unstyled">
-            <li>Email: support@tasteofhome.com</li>
-            <li>Phone: +49 123 456789</li>
-            <li>Address: 123 Food Street, Berlin, Germany</li>
+            <li><a href="#" class="text-decoration-none text-muted">For Customers</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">For Chefs</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Admin Portal</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">About Us</a></li>
           </ul>
         </div>
-        <div class="col-md-4">
-          <h5>Follow Us</h5>
-          <div>
-            <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
-          </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-4 mb-4">
+          <h6 class="fw-bold text-uppercase">Contact</h6>
+          <p class="text-muted mb-1">support@tasteofhome.com</p>
+          <p class="text-muted mb-1">+1 (123) 456-7890</p>
+          <p class="text-muted">123 Food Street<br>Culinary City, FL 12345</p>
         </div>
+
       </div>
-      <div class="row mt-3">
-        <div class="col text-center">
-          <p>&copy; 2025 Taste of Home. All rights reserved.</p>
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="#" class="text-white">Privacy Policy</a></li>
-            <li class="list-inline-item"><a href="#" class="text-white">Terms of Service</a></li>
-            <li class="list-inline-item"><a href="#" class="text-white">FAQs</a></li>
-          </ul>
-        </div>
+
+      <!-- Bottom line -->
+      <div class="text-center mt-4 border-top pt-3">
+        <p class="text-muted small mb-0">© 2025 Taste of Home Bistro System. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
